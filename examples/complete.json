@@ -1,0 +1,46 @@
+{
+    "baner": "None", // Persistent, Welcome
+    "config_install": {
+        "steps": [
+            {
+                "name": "Cloning Repo",
+                "description": "Lorem",
+                "type_step": "Custom",
+                "os_target": "Any",
+                "interactable": true,
+                "multiple_select": true,
+                "sentence": "config.get_os() == \"linux\" && time > 3",
+                "options": [
+                    "zsh",
+                    "bash",
+                    "fish"
+                ],
+                "commands": [
+                    {
+                        "cmd": "git",
+                        "args": [
+                            "clone",
+                            "https://alskfksdfh.alkjd",
+                            "{options}"
+                        ]
+                    }
+                ],
+            },
+            {
+                "name": "Cloning Repo",
+                "description": "Lorem",
+                "type_step": "Custom",
+                "os_target": "Any",
+                "commands": [
+                    {
+                        "cmd": "git",
+                        "args": [
+                            "clone",
+                            "https://alskfksdfh.alkjd"
+                        ]
+                    }
+                ],
+            },
+        ]
+    }
+}
