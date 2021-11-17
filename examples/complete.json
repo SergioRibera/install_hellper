@@ -7,9 +7,10 @@
                 "description": "Lorem",
                 "type_step": "Custom",
                 "os_target": "Any",
+                "show_outputs": false,
                 "interactable": true,
                 "multiple_select": true,
-                "sentence": "config.get_os() == \"linux\" && time > 3",
+                "sentence": "os == \"linux\"",
                 "options": [
                     "zsh",
                     "bash",
